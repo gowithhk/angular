@@ -1,0 +1,8 @@
+.app-body {
+  background-color: rgb(240, 237, 234);
+  min-height: 900px;
+}
+
+button {
+  margin-right: 5px;
+}
