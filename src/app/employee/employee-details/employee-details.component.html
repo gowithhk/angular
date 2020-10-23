@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <table mat-table [dataSource]="employeeDetails" class="mat-elevation-z8">
 
   <!--- Note that these columns can be defined in any order.
@@ -24,3 +25,10 @@
   <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
   <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
 </table>
+=======
+<ul>
+  <li *ngFor="let employee of employeeDetails">
+    Id: {{employee.id}}, Name: {{employee.name}}, Department: {{employee.department}}
+  </li>
+</ul>
+>>>>>>> services
